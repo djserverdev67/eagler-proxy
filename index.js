@@ -2,8 +2,8 @@ const http = require('http');
 const httpProxy = require('http-proxy');
 
 // Update TARGET_PORT to match your assigned Falix port from Network/Ports
-const TARGET_IP = 'djserver6dev.falixsrv.me';
-const TARGET_PORT = 27580; 
+const TARGET_IP = 'djserver67dev.falixsrv.me';
+const TARGET_PORT = 27613; 
 
 const proxy = httpProxy.createProxyServer({
   target: `http://${TARGET_IP}:${TARGET_PORT}`,
